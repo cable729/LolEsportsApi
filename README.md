@@ -8,7 +8,7 @@
         * `display_language`: Possibly the language the client is set to
         * `streams`: Array of streams, with a `title`, `url`, and a `randomize` field. I'm not sure what this field is used for.
     * `shortName`: Short name of the league. Interestingly, there is no long name field.
-* [/api/match/{id}.json](http://na.lolesports.com/api/match/{id}.json). Notable returned fields:
+* [/api/match/{id}.json](http://na.lolesports.com/api/match/2605.json). Notable returned fields:
     * `tournament`: Object with the tournament id (links to `/api/tournament/{id}.json`), tournament full name, and round of the tournament.
     * `dateTime`: Scheduled match time in ISO 8601 format
     * `winnerId`, `maxGames`, `isLive`, `isFinished`
